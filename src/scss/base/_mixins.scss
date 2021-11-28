@@ -1,0 +1,25 @@
+@mixin btn-style {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 2px;
+    padding: 13px 15px;
+    background-color: $blue;
+    color: $white;
+    font-weight: 500;
+
+    img {
+        width: 14px;
+        height: 14px;
+        margin-right: 10px;
+    }
+
+    &:hover {
+        background-color: $blue-hover;
+        color: $white;
+        text-decoration: none;
+    }
+}
